@@ -1,0 +1,43 @@
+
+Smart Traffic Signal System – Work Process
+1. Vehicle Detection & Traffic Analysis
+
+   Uses YOLOv8 and OpenCV to detect and count vehicles at intersections.
+   Classifies vehicles (cars, buses, emergency vehicles, etc.) and analyzes traffic density.
+
+2. Emergency Vehicle Tracking
+
+GPS module tracks the real-time location of ambulances, fire trucks, etc.
+System detects approaching emergency vehicles and adjusts signals to clear their path.
+
+3. Dynamic Traffic Signal Control
+
+AI-based adaptive timing: Signal duration is adjusted based on real-time traffic conditions.
+Reduces congestion by prioritizing roads with higher vehicle counts.
+Works efficiently for peak and off-peak hours.
+
+4. Cloud Integration & Communication
+
+Traffic data is uploaded to Google Cloud for analysis and monitoring.
+Uses MQTT protocol to send real-time updates to traffic controllers and dashboards.
+
+5. Traffic Light Control (Output System)
+
+ESP32/ESP8266 microcontrollers receive optimized traffic signal timing.
+Manages LED traffic lights dynamically based on AI analysis.
+Ensures emergency vehicles get a green light while others are stopped.
+
+6. Real-Time Monitoring & Alerts
+
+Web-based dashboard displays real-time traffic conditions and system performance.
+Sends automated alerts for congestion, accidents, or hardware failures.
+Data logs help in long-term traffic planning and optimization.
+
+Key Benefits
+
+✅ Reduces congestion by optimizing signal timing.
+✅ Prioritizes emergency vehicles for faster response times.
+✅ Uses AI & IoT for real-time decision-making.
+✅ Cloud-based monitoring for traffic authorities.
+
+This system ensures smarter and more efficient traffic management.
